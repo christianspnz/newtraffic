@@ -54,24 +54,19 @@ document.getElementById("press").onclick = function (){
     }
     else if (change === 1){
         change += 1;
-        ready1.style.backgroundColor = "YELLOW";
-        go2.style.backgroundColor = "GREEN";
-        ready3.style.backgroundColor = "YELLOW";
-        go4.style.backgroundColor = "GREEN";
-        ready5.style.backgroundColor = "YELLOW";
-        go6.style.backgroundColor = "GREEN";
-        go7.style.backgroundColor = "GREEN";
-        ready8.style.backgroundColor = "YELLOW";
-        go9.style.backgroundColor = "GREEN";
-        ready10.style.backgroundColor = "YELLOW";
-        go11.style.backgroundColor = "GREEN";
-        ready12.style.backgroundColor = "YELLOW";
-        stop1.style.backgroundColor = "BLACK";
-        stop3.style.backgroundColor = "BLACK";
-        stop5.style.backgroundColor = "BLACK";
-        stop8.style.backgroundColor = "BLACK";
-        stop10.style.backgroundColor = "BLACK";
-        stop12.style.backgroundColor = "BLACK";
+        ready2.style.backgroundColor = "YELLOW";
+        go2.style.backgroundColor = "BLACK";
+        ready4.style.backgroundColor = "YELLOW";
+        go4.style.backgroundColor = "BLACK";
+        ready6.style.backgroundColor = "YELLOW";
+        go6.style.backgroundColor = "BLACK";
+        go7.style.backgroundColor = "BLACK";
+        ready7.style.backgroundColor = "YELLOW";
+        go9.style.backgroundColor = "BLACK";
+        ready9.style.backgroundColor = "YELLOW";
+        go11.style.backgroundColor = "BLACK";
+        ready11.style.backgroundColor = "YELLOW";
+        
     }
     else if (change === 2){
         change += 1;
@@ -87,33 +82,42 @@ document.getElementById("press").onclick = function (){
         go10.style.backgroundColor = "GREEN";
         stop11.style.backgroundColor = "RED";
         go12.style.backgroundColor = "GREEN";
-        go2.style.backgroundColor = "BLACK";
-        go4.style.backgroundColor = "BLACK";
-        go6.style.backgroundColor = "BLACK";
-        go7.style.backgroundColor = "BLACK";
-        go9.style.backgroundColor = "BLACK";
-        go11.style.backgroundColor = "BLACK";
-        ready1.style.backgroundColor = "BLACK";
-        ready3.style.backgroundColor = "BLACK";
-        ready5.style.backgroundColor = "BLACK";
-        ready8.style.backgroundColor = "BLACK";
-        ready10.style.backgroundColor = "BLACK";
-        ready12.style.backgroundColor = "BLACK";
+        ready2.style.backgroundColor = "BLACK";
+        ready4.style.backgroundColor = "BLACK";
+        ready6.style.backgroundColor = "BLACK";
+        ready7.style.backgroundColor = "BLACK";
+        ready9.style.backgroundColor = "BLACK";
+        ready11.style.backgroundColor = "BLACK";
+		stop1.style.backgroundColor = "BLACK";
+        stop3.style.backgroundColor = "BLACK";
+        stop5.style.backgroundColor = "BLACK";
+        stop8.style.backgroundColor = "BLACK";
+        stop10.style.backgroundColor = "BLACK";
+        stop12.style.backgroundColor = "BLACK";
+        
     }
     else if (change === 3){
         change += 1;
-        ready2.style.backgroundColor = "YELLOW";
-        stop2.style.backgroundColor = "BLACK";
-        ready4.style.backgroundColor = "YELLOW";
-        stop4.style.backgroundColor = "BLACK";
-        ready6.style.backgroundColor = "YELLOW";
-        stop6.style.backgroundColor = "BLACK";
-        ready7.style.backgroundColor = "YELLOW";
-        stop7.style.backgroundColor = "BLACK";
-        ready9.style.backgroundColor = "YELLOW";
-        stop9.style.backgroundColor = "BLACK";
-        ready11.style.backgroundColor = "YELLOW";
-        stop11.style.backgroundColor = "BLACK";
+        ready1.style.backgroundColor = "YELLOW";
+        stop2.style.backgroundColor = "RED";
+        ready3.style.backgroundColor = "YELLOW";
+        stop4.style.backgroundColor = "RED";
+        ready5.style.backgroundColor = "YELLOW";
+        stop6.style.backgroundColor = "RED";
+        ready8.style.backgroundColor = "YELLOW";
+        stop7.style.backgroundColor = "RED";
+        ready10.style.backgroundColor = "YELLOW";
+        stop9.style.backgroundColor = "RED";
+        ready12.style.backgroundColor = "YELLOW";
+        stop11.style.backgroundColor = "RED";
+		go1.style.backgroundColor = "BLACK";
+        go3.style.backgroundColor = "BLACK";
+        go5.style.backgroundColor = "BLACK";
+        go8.style.backgroundColor = "BLACK";
+        go10.style.backgroundColor = "BLACK";
+        go12.style.backgroundColor = "BLACK";
+		
+		
     }
     else{
         change = 1;
@@ -129,17 +133,17 @@ document.getElementById("press").onclick = function (){
         stop10.style.backgroundColor = "RED";
         go11.style.backgroundColor = "GREEN";
         stop12.style.backgroundColor = "RED";
-        ready2.style.backgroundColor = "BLACK";
-        ready4.style.backgroundColor = "BLACK";
-        ready6.style.backgroundColor = "BLACK";
-        ready7.style.backgroundColor = "BLACK";
-        ready9.style.backgroundColor = "BLACK";
-        ready11.style.backgroundColor = "BLACK";
-        go1.style.backgroundColor = "BLACK";
-        go3.style.backgroundColor = "BLACK";
-        go5.style.backgroundColor = "BLACK";
-        go8.style.backgroundColor = "BLACK";
-        go10.style.backgroundColor = "BLACK";
-        go12.style.backgroundColor = "BLACK";
+        stop2.style.backgroundColor = "BLACK";
+        stop4.style.backgroundColor = "BLACK";
+        stop6.style.backgroundColor = "BLACK";
+        stop8.style.backgroundColor = "BLACK";
+        stop10.style.backgroundColor = "BLACK";
+        stop12.style.backgroundColor = "BLACK";
+        ready1.style.backgroundColor = "BLACK";
+        ready3.style.backgroundColor = "BLACK";
+        ready5.style.backgroundColor = "BLACK";
+        ready8.style.backgroundColor = "BLACK";
+        ready10.style.backgroundColor = "BLACK";
+        ready12.style.backgroundColor = "BLACK";
     }
 }
